@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:cardElevation="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tvname"
+                    android:textSize="20sp"
+                    android:textColor="@color/fbutton_color_carrot"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/white_button_boarder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_owner"
+                    android:textSize="20sp"
+                    android:textColor="@color/fbutton_color_carrot"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/white_button_boarder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:textSize="20sp"
+                    android:textColor="@color/fbutton_color_carrot"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/white_button_boarder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_created"
+                    android:textSize="20sp"
+                    android:textColor="@color/fbutton_color_carrot"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/white_button_boarder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_pushed"
+                    android:textSize="20sp"
+                    android:textColor="@color/fbutton_color_carrot"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/white_button_boarder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/tv_link"
+                    android:textSize="20sp"
+                    android:textColor="@color/fbutton_color_carrot"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/white_button_boarder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
